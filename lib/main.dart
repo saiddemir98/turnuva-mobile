@@ -7,5 +7,5 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   ExceptionHandler.exceptionHandler();
   await BeanConfiguration().dependencies();
-  runApp(const MyApp());
+  runApp(const MyApp()); 
 }

@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       themeMode: Global.settings.themeMode,
       initialRoute: Routes.INITIAL,
-      locale: LocaleString.en,
+      locale: LocaleString.device,
       popGesture: true,
       translations: LocaleString(),
       supportedLocales: const [

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:clean/controller/list_provider.dart';
+import 'package:clean/provider/list_provider.dart';
 import 'package:clean/module/home_module/home_view_model.dart';
 
 class HomeView extends GetView<HomeViewModel> {
