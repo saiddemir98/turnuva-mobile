@@ -1,0 +1,39 @@
+abstract class Routes {
+  static const TEST = '/test';
+  // ignore: constant_identifier_names
+  static String INITIAL = '/';
+  static const String SLIDER = '/slider';
+  static const String LOGIN = '/login';
+  static const String REGISTER = '/register';
+  static const String FORGOTPASSWORD = '/forgot-password';
+  static const String HOMEPAGE = '/homepage';
+  static const String MAINPAGE = '/main';
+  static const String COMPANIE = '/companie';
+  static const String MESSAGES = '/messages';
+  static const String PROFILE = '/profile';
+  static const String PHOTODETAIL = '/photo-detail';
+  static const String JOB = '/job';
+  static const String NEWPOST = '/new-post';
+  static const String NEWCONNECTION = '/new-connection';
+  static const String NETWORK = '/newtork';
+  static const String POSTDETAIL = '/post-detail';
+  static const String CV = '/cv';
+  static const String BLOG = '/blog';
+  static const String ANNOUNCEMENT = '/announcement';
+  static const String EVENT = '/event';
+  static const String EVENTDETAIL = '/event-detail';
+  static const String ANNOUNCEMENTDETAIL = '/announcement-detail';
+  static const String BLOGDETAIL = '/blog-detail';
+  static const String JOBADVERTS = '/job-adverts';
+  static const String TAG = '/tag';
+  static const String HASHTAG_DETAIL = '/hashtag-detail';
+  static const String KVKK = '/kvkk';
+  static const String SENDQUESTION = '/send-duestion';
+  static const String USERDETAIL = '/user-detail';
+  static const String FOLLOWS_USERS = '/follows-dsers';
+  static const String FOLLOWS_COMPANIES = '/follows-dompanies';
+  static const String MESSAGE_DETAIL = '/message-detail';
+  static const String NOTIFICATION = '/notification';
+  static const String BASESCREEN = '/vg';
+  static const String SETTING = '/setting';
+}
